@@ -36,7 +36,7 @@ int main() {
     
     while (i < 5) {
       if (list[i].train_num == num) {
-        cout << "Train number "<< i + 1 <<" departuring to " << list[i].destination << " in " << list[i].dest_time;
+        cout << "Train number " << i + 1 << " departuring to " << list[i].destination << " in " << list[i].dest_time;
         correct_number = true;
       }
       i = i + 1;
