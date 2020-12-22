@@ -26,11 +26,11 @@ int main() {
         cout << endl;
         i = i + 1;
     }
-    
-    cout << "Please, enter number of necessary train: ";
+        
     int num = 0;
     bool correct_number = false;
     i = 0;
+    cout << "Please, enter number of necessary train: ";
     cin >> num;
     cout << endl;
     
